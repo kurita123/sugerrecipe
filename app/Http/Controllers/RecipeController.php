@@ -11,8 +11,8 @@ class RecipeController extends Controller
 {
     public function index(Request $request){
         //レシピ取得
-        $recipes = Recipe::orderBy('evalunation','desc')->paginate(10);
+        $recipes = Recipe::orderBy('evalunation','desc')->paginate(18);
         
-        return view('top',compact('recipes'));
+        return view('home',compact('recipes'));
     }
 }
