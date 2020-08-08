@@ -59,8 +59,8 @@
         <a href="{{ route('post') }}">Post</a>
         </li>
         <li class="nav-list-item">Suger</li>
-        <li class="nav-list-item">
-        <a href="{{ route('login') }}">Login</a></p>
+        <li　class="nav-list-item">
+        <a href="{{ route('login') }}">Login</a>
         </li>
     </ul>
     </header>
