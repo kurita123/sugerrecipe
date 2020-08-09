@@ -31,9 +31,11 @@
     .nav-list-item {list-style: none;display: inline-block;margin: 0 20px;}
     footer {width: 100%; height: 120px; text-align: center; padding: 50px 0;background-color: #00ff7f;}
     .footer-text {color: #fff;}
-    .recipe{font-weight: bold; text-align: center; margin:0 auto;font-size: 1.1em;}
+    .recipe {font-weight: bold; text-align: center; margin:0 auto;font-size: 1.1em;}
+    .recipe input{width:70%;text-align: center;}
+    textarea{width:70%;}
     img.inrecipe{width:90%; display: block; margin: 0 auto; height: 200px; object-fit: cover;}
-    
+    p {margin:20px 0 0 0;}
     </style>
 
 </head>
@@ -45,7 +47,7 @@
     </h1>
     <ul class="nav-list">
         <li class="nav-list-item">
-        <a href="{{ route('home') }}">Home</a>
+        <a href="{{ route('top') }}">Home</a>
         </li>
         <li class="nav-list-item">
         <a href="{{ route('post') }}">Post</a>

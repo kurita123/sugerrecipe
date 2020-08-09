@@ -1,4 +1,4 @@
-@extends('layouts.temple')
+@extends('layouts.top')
 
 @section('title','糖質制限')
 
@@ -36,7 +36,7 @@
                     <div class="col-xs-6 col-sm-4 col-md-4 ">
                         <div class="myrecipe">
                             料理名 : {{$recipe->c_name}}<br>
-                            画像 : <img src="/img/{{$recipe->imgpath}}" alt="" class="inrecipe"><br>
+                            画像 : <img src="{{ asset('/storage/img/'.$recipe->imgpath)}}" alt="" class="inrecipe"><br>
                             糖質量 : {{$recipe->t_suger}}g<br>
                             評価 : {{$recipe->evalunation}}<br>
                             <form action="recipe" method="post">

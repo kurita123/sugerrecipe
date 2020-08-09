@@ -16,6 +16,6 @@ class TopController extends Controller
         //レシピ取得
         $recipes = Recipe::orderBy('evalunation','desc')->paginate(18);
         
-        return view('home',compact('recipes'));
+        return view('top',compact('recipes'));
     }
 }

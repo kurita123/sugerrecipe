@@ -12,6 +12,6 @@ Route::post('home', 'HomeController@index');
 
 Route::get('post', 'PostController@index')->name('post');
 
-Route::post('create', 'PostController@create');
+Route::post('postcomplete', 'PostController@complete');
 
 Route::post('recipe', 'RecipeController@index');
