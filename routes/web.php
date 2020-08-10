@@ -14,4 +14,7 @@ Route::get('post', 'PostController@index')->name('post');
 
 Route::post('postcomplete', 'PostController@complete');
 
+Route::get('mypage', 'MypageController@mypage')->name('mypage');
+Route::post('mypage', 'MypageController@mypage')->name('mypage');
+
 Route::post('recipe', 'RecipeController@index');

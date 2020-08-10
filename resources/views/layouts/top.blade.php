@@ -41,6 +41,7 @@
     .btn {margin:10px 50px;}
     .text{ margin:0 10px;}
     .recipe{margin:0px auto;}
+    .name {text-align:center; font-size:2em; margin:20px 0px;}
     </style>
 
 </head>
@@ -53,6 +54,9 @@
     <ul class="nav-list">
         <li class="nav-list-item">
         <a href="{{ route('post') }}">Post</a>
+        </li>
+        <li class="nav-list-item">
+        <a href="{{ route('mypage') }}">Mypage</a>
         </li>
         <li class="nav-list-item">Suger</li>
         <li class="nav-list-item">

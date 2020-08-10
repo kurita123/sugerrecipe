@@ -20,6 +20,7 @@ class PostRequest extends FormRequest
             'material' => 'required',
             'amount' => 'required|max:300',
             'recipe' => 'required|max:2000',
+            'imgpath' => 'required',
         ];
     }
     
@@ -30,6 +31,7 @@ class PostRequest extends FormRequest
             'material.required' => '食材＆調味料を記入して下さい。',
             'amount.required' => '1人前の量を300以内で記入して下さい。',
             'recipe.required' => '作り方を2000文字以内で記入して下さい。',
+            'imgpath.required' => '画像を選んで下さい',
         ];
     }
 

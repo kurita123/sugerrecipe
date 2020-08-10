@@ -25,7 +25,7 @@ class PostController extends Controller
         $user_id  = Auth::id();
         $c_name = $request->c_name;
         $path = $request->file('imgpath')->store('public/img');
- 
+        $recipes[] = array();
         $recipes = [
             'user_id'  => $user_id,
             'c_name'   => $request->c_name,
@@ -37,12 +37,7 @@ class PostController extends Controller
         ];
          //DB保存
         DB::table('recipes')->insert($recipes);
-        // //レシピからIDと料理名で検索
-        // $recipes = DB::table('recipe')->where('user_id',$user_id)
-        //                               ->where('c_name',$c_name)
-        //                             ->whereRaw('datetime >= ? and datetime <=?',[$date_first,$date_last])
-        //                             ->orderBy('datetime','asc')
-        //                             ->get();
-        return view('postcomplete',compact('recipes'));
+                                
+        return view('postcomplete');
     }
 }
