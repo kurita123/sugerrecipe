@@ -17,6 +17,9 @@
                 </form>
             </div>
         <div sidebar_fixed>
+        <div class="text">
+            <h2 style="color:red;">オススメ商品</h2>
+        </div>
             <table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:280px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:128px"><a href="https://hb.afl.rakuten.co.jp/ichiba/1705da02.aebce5b3.1705da03.f53d39f5/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2Fabe92909ae32d8975e66d5beca5735b0%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjoxfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><img src="https://hbb.afl.rakuten.co.jp/hgb/1c90d32c.da3a5d7f.1c90d32d.cba11d24/?me_id=1330300&item_id=10000352&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fchoosefood%2Fcabinet%2F04945509%2Fseasoning%2Frakanto_800.jpg%3F_ex%3D128x128&s=128x128&t=picttext" border="0" style="margin:2px" alt="" title=""></a></td><td style="vertical-align:top;width:136px;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/1705da02.aebce5b3.1705da03.f53d39f5/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2Fabe92909ae32d8975e66d5beca5735b0%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjoxfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  >ラカントS 顆粒 800g サラヤ カロリーゼロ 糖類ゼロ 業務用【メール便ポスト投函】【全国送料無料】</a></p></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
             <table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:280px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:128px"><a href="https://hb.afl.rakuten.co.jp/ichiba/1c90dcbf.8b490d52.1c90dcc0.be4d4c79/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froombania%2Fr-ao-pd500%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><img src="https://hbb.afl.rakuten.co.jp/hgb/1c90dcbf.8b490d52.1c90dcc0.be4d4c79/?me_id=1252463&item_id=10000481&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Froombania%2Fcabinet%2Fsoypowder%2F0204okara_newp01.jpg%3F_ex%3D128x128&s=128x128&t=picttext" border="0" style="margin:2px" alt="" title=""></a></td><td style="vertical-align:top;width:136px;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/1c90dcbf.8b490d52.1c90dcc0.be4d4c79/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froombania%2Fr-ao-pd500%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  >おからパウダー 糖質ゼロ 超微粉 送料無料 奇跡のおから 500g 糖質制限 糖質オフ ローカボ 食物繊維 置き換え 国内 京都 加工 送料無料 おやつ パン お菓子 作りに</a></p></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
             <table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:280px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:128px"><a href="https://hb.afl.rakuten.co.jp/ichiba/1705da02.aebce5b3.1705da03.f53d39f5/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2Fe4c30da266abd5b38ce49bc336ba0e04%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjoxfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><img src="https://hbb.afl.rakuten.co.jp/hgb/1c90d772.c3f7aa77.1c90d773.38226854/?me_id=1193677&item_id=11647992&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fkenkocom%2Fcabinet%2F064%2F4902856314064.jpg%3F_ex%3D128x128&s=128x128&t=picttext" border="0" style="margin:2px" alt="" title=""></a></td><td style="vertical-align:top;width:136px;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/1705da02.aebce5b3.1705da03.f53d39f5/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2Fe4c30da266abd5b38ce49bc336ba0e04%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjoxfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  >盛田 カロリーオフ 糖質オフ みりんタイプ(500ml)【spts4】【盛田(MORITA)】</a></p></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
@@ -31,28 +34,39 @@
     <div class="col">
         <div class = "name">
         @foreach($name as $nam)
-            <p>{{$nam->name}}の投稿レシピ一覧</p>
+            <p>{{$nam->name}}さんのレシピ</p>
         @endforeach
         </div>
-            <div class="d-flex flex-row flex-wrap">
-                @foreach($recipes as $recipe)
-                    <div class="col-xs-6 col-sm-4 col-md-4 ">
-                        <div class="myrecipe">
-                            料理名 : {{$recipe->c_name}}<br>
-                            画像 : <img src="{{ asset('/storage/img/'.$recipe->imgpath)}}" alt="" class="inrecipe"><br>
-                            糖質量 : {{$recipe->t_suger}}g<br>
-                            評価 : {{$recipe->evalunation}}<br>
-                            <form action="recipe" method="post">
-                            @csrf
-                            <input type="hidden" name="id" value="{{$recipe->id}}">
-                            <input type="submit" value="詳細" class= 'btn-lg btn-primary'><br>
-                            </form>
+            @foreach($recipes as $recipe)
+                <div class="myrecipe">
+                    <div class="myrecipe-coo">
+                        <p><span style="color:red">料理名 : </span>{{$recipe->c_name}}<br>
+                    </div>
+                        <img src="{{ asset('/storage/img/'.$recipe->imgpath)}}" ><br>
+                        <span style="color:red">材料 : </span>{{$recipe->material}}<br><br>
+                        <span style="color:red">作り方 : </span>{{$recipe->recipe}}<br>
+                    </div>
+                    <div class="myrecipe-su">
+                        <span style="color:red">糖質量 : </span>{{$recipe->t_suger}}g<br><br>
+                        <span style="color:red">１人前の量 : </span>{{$recipe->amount}}g<br><br>
+                        <span style="color:red">評価 : </span>{{$recipe->evalunation}}<br><br>
+                        <span style="color:#33CCCC">あなたの評価</span></p>
+                        <span class="star-rating">
+                        <input type="radio" name="rating" value="1"><i></i>
+                        <input type="radio" name="rating" value="2"><i></i>
+                        <input type="radio" name="rating" value="3"><i></i>
+                        <input type="radio" name="rating" value="4"><i></i>
+                        <input type="radio" name="rating" value="5"><i></i>
+                        </span>
+                        <form action="evaluation" mecthod="post">
+                        @csrf
+                        <span style="color:#33CCCC"><p>コメント</p></span>
+                        <textarea type="text"  name="comment" rows="10" >{{ old('recipe') }}</textarea><br>
+                        <div class="button">
+                            <input type="submit" value="確認" class= 'btn-lg btn-primary'>
                         </div>
                     </div>
                 @endforeach
-                <div style="text-center; width: 200px;margin: 20px auto;">
-                    {{ $recipes->appends(request()->input())->links() }} 
-                </div>
             </div>
         </div>
     </div>

@@ -17,7 +17,8 @@ class MypageController extends Controller
     public function mypage(Request $request){
         $user_id  = Auth::id();
         $name = DB::table('users')->where('id',$user_id)->get('name');
-        $recipes = DB::table('recipes')->where('user_id',$user_id)->get();
+        $recipes = DB::table('recipes')->where('user_id',$user_id)
+                                       ->paginate(12);;
 
         return view('mypage',compact('recipes','name'));
     }

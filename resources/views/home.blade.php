@@ -42,12 +42,15 @@
                             評価 : {{$recipe->evalunation}}<br>
                             <form action="recipe" method="post">
                             @csrf
-                            <input type="hidden" name="recipe" value="{{$recipe->id}}">
+                            <input type="hidden" name="id" value="{{$recipe->id}}">
                             <input type="submit" value="詳細" class= 'btn-lg btn-primary'><br>
                             </form>
                         </div>
                     </div>
                 @endforeach
+                <div style="text-center; width: 200px;margin: 20px auto;">
+                    {{ $recipes->appends(request()->input())->links() }} 
+                </div>
             </div>
         </div>
     </div>

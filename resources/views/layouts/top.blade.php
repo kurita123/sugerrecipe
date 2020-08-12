@@ -41,7 +41,6 @@
     .btn {margin:10px 50px;}
     .text{ margin:0 10px;}
     .recipe{margin:0px auto;}
-    .name {text-align:center; font-size:2em; margin:20px 0px;}
     </style>
 
 </head>

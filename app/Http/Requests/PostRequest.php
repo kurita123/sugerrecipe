@@ -20,7 +20,7 @@ class PostRequest extends FormRequest
             'material' => 'required',
             'amount' => 'required|max:300',
             'recipe' => 'required|max:2000',
-            'imgpath' => 'required',
+            'imgpath' => 'required|image|mimes:jpeg,png,jpg,gif|max:1024',
         ];
     }
     
@@ -32,6 +32,9 @@ class PostRequest extends FormRequest
             'amount.required' => '1人前の量を300以内で記入して下さい。',
             'recipe.required' => '作り方を2000文字以内で記入して下さい。',
             'imgpath.required' => '画像を選んで下さい',
+            'image' => '指定されたファイルが画像ではありません。',
+            'mimes' => '指定された拡張子（JPEG/PNG/JPG/GIF）ではありません。',
+            'max' => '１Ｍを超えています。',
         ];
     }
 
