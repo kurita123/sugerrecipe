@@ -21,27 +21,32 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/hosi.css') }}" rel="stylesheet">
 
     <style>
     #main {width: 100%;padding: 10px 30px 10px 10px; }
     header {background-color:#FFFFEE;}
     .footer {font-size:30px; background-color:#3490dc; text-align:right; color:white; margin:-25px 0;}
-    .example {position: relative;}
-    .example img { width:100%; max-width:100%; margin:10px 10px;height: auto;}
     header {width: 100%;padding: 15px 0;margin: 0 auto;text-align: center;}
     header .headline{font-size: 32px;}
     .nav-list {text-align: center;padding: 10px 0;margin: 0 auto;}
     .nav-list-item {list-style: none;display: inline-block;margin: 0 20px;}
     footer {width: 100%; height: 120px; text-align: center; padding: 50px 0;background-color: #00ff7f;}
     .footer-text {color: #fff;}
+    .recipe {font-weight: bold; text-align: center; margin:0 auto;font-size: 1.1em;}
+    .recipe input{width:70%;text-align: center;}
+    textarea{width:70%;}
+    img.inrecipe{width:90%; display: block; margin: 0 auto; height:200px; object-fit: cover;}
+    .myrecipe{color: #4c4c4c; font-weight: bold; text-align: center; margin-top: 24px; padding: 24px 8px; font-size: 1.1em; background-color: #fefefe;}
+    .name {text-align:center; font-size:2em; margin:20px 0px;}
+    .text{ margin:10px 10px;}
     .sidebar_fixed {position: sticky;top: 60px;}
     .sidebar_content {margin-bottom: 100px;}
-    .myrecipe{color: #4c4c4c; font-weight: bold; text-align: center; margin-top: 24px; padding: 24px 8px; font-size: 1.1em; background-color: #fefefe;}
-    img.inrecipe{width:90%; display: block; margin: 0 auto; height: 200px; object-fit: cover;}
-    .pace-running .wrap {display:none;}
-    .btn {margin:10px 50px;}
-    .text{ margin:10px 10px;}
-    .recipe{margin:0px auto;}
+    .span {color:red;}
+    .myrecipe-coo{font-size: 1.8em;}
+    .myrecipe-su{color: #4c4c4c; font-weight: bold; text-align: center; padding: 24px 8px; font-size: 1.1em; background-color: #fefefe;}
+    .button {text-align:center;margin:10px 0px}
+    .button form { display: inline-block; margin:0px 20px;}
     </style>
 
 </head>
@@ -52,6 +57,9 @@
             <a>糖質制限商品&レシピ集</a>
         </h1>
         <ul class="nav-list">
+            <li class="nav-list-item">
+            <a href="{{ route('top') }}">Home</a>
+            </li>
             <li class="nav-list-item">
             <a href="{{ route('post') }}">Post</a>
             </li>

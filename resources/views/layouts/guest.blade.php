@@ -35,19 +35,19 @@
     .recipe {font-weight: bold; text-align: center; margin:0 auto;font-size: 1.1em;}
     .recipe input{width:70%;text-align: center;}
     textarea{width:70%;}
-    img.inrecipe{width:50%; display: block; margin: 0 auto; height:auto; object-fit: cover;}
-    p {margin:0px 0 0 0;}
+    img.inrecipe{width:50%; display: block; margin: 0 auto; height: auto; object-fit: cover;}
+    p {margin:20px 0 0 0;}
     .myrecipe{color: #4c4c4c; font-weight: bold; text-align: center; margin-top: 24px; padding: 24px 8px; font-size: 1.1em; background-color: #fefefe;}
     .name {text-align:center; font-size:2em; margin:20px 0px;}
-    .text{ margin:10px 0px 0px 50px;}
-    .sidebar_fixed {margin: 10px 0px 0px 50px;position: sticky;top: 60px;}
-    .sidebar_content {padding:10px 0 0px 10px;margin-bottom: 100px;}
+    .text{ margin:0 10px;}
+    .sidebar_fixed {position: sticky;top: 60px;}
+    .sidebar_content {margin-bottom: 100px;}
     .span {color:red;}
     .myrecipe-coo{font-size: 1.8em;}
-    .myrecipe-su{color: #4c4c4c; font-weight: bold; text-align: center; padding: 24px 8px; font-size: 1.1em; background-color: #fefefe;}
-    .button {text-align:center;margin:10px 0px}
-    .button form { display: inline-block; margin:0px 20px;}
+    .myrecipe-su{color: #4c4c4c; font-weight: bold; text-align: left; padding: 24px 8px; font-size: 1.1em; background-color: #fefefe;}
+    .button {margin:10px 0px 0px 350px;}
     </style>
+
 
 </head>
 <body class="is-slide" id="page-animate">
@@ -59,22 +59,12 @@
     </h1>
     <ul class="nav-list">
         <li class="nav-list-item">
-        <a href="{{ route('top') }}">Home</a>
+        <a href="{{ route('login') }}">Login</a>
         </li>
         <li class="nav-list-item">
-        <a href="{{ route('mypage') }}">Mypage</a>
+        <a href="{{ route('register') }}">Register</a>
         </li>
-        <li class="nav-list-item">
-        <a href="{{ route('post') }}">Post</a>
-        </li>
-        <li class="nav-list-item">Suger</li>
-        <li class="nav-list-item">
-        <a href="{{ route('logout') }}"
-            onclick="event.preventDefault();
-            document.getElementById('logout-form').submit();">
-            {{ __('Logout') }}
-        </a>
-
+    </ul>
         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
             @csrf
         </form>

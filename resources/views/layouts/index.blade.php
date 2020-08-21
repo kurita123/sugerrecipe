@@ -25,12 +25,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/themes/black/pace-theme-center-circle.min.css" />
 
-   
     <style>
+    #main {width: 100%;padding: 10px 30px 10px 10px; }
     header {background-color:#FFFFEE;}
     .footer {font-size:30px; background-color:#3490dc; text-align:right; color:white; margin:-25px 0;}
     .example {position: relative;}
-    .example img { width:100%; max-width:100%; height: auto;}
+    .example img { width:99%; max-width:99%; margin: 10px 10px; height: auto;}
     header {width: 100%;padding: 15px 0;margin: 0 auto;text-align: center;}
     header .headline{font-size: 32px;}
     .nav-list {text-align: center;padding: 10px 0;margin: 0 auto;}
@@ -43,7 +43,7 @@
     img.inrecipe{width:90%; display: block; margin: 0 auto; height: 200px; object-fit: cover;}
     .pace-running .wrap {display:none;}
     .btn {margin:10px 50px;}
-    .text{ margin:0 10px;}
+    .text{ margin:10px 10px;}
     .recipe{margin:0px auto;}
     </style>
 
@@ -56,17 +56,27 @@
     </h1>
     <ul class="nav-list">
         <li class="nav-list-item">
-        <a href="{{ route('post') }}">Post</a>
-        </li>
-        <li class="nav-list-item">Suger</li>
-        <li　class="nav-list-item">
         <a href="{{ route('login') }}">Login</a>
+        </li>
+        <li class="nav-list-item">
+        <a href="{{ route('register') }}">Register</a>
         </li>
     </ul>
     </header>
-    <div class="content">
-        @yield('content')　
+    <main class="mb-auto">
+    <div class="container">
+        <div class="row" id="content">
+            <div class="col-md-3 order-sm-2">
+            <!-- サイドバー -->
+            @include('layouts.sub')
+            </div>
+            <div class="col-md-9 order-sm-1">
+            <!-- コンテンツ -->
+            @yield('content')
+            </div>
+        </div>
     </div>
+    </main>
     <!-- footer -->
     <footer>
         <p>© All rights reserved by sugerrecipe.</p>

@@ -14,7 +14,7 @@ class TopController extends Controller
       
     public function index(Request $request){
         //レシピ取得
-        $recipes = Recipe::orderBy('evalunation','desc')->paginate(12);
+        $recipes = Recipe::orderBy('updated_at','asc')->paginate(12);
         
         return view('top',compact('recipes'));
     }

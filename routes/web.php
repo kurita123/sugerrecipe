@@ -14,7 +14,19 @@ Route::get('post', 'PostController@index')->name('post');
 
 Route::post('postcomplete', 'PostController@complete');
 
-Route::get('mypage', 'MypageController@mypage')->name('mypage');
-Route::post('mypage', 'MypageController@mypage')->name('mypage');
+Route::get('mypage/mypage', 'MypageController@mypage')->name('mypage');
+Route::post('mypage/mypage', 'MypageController@mypage')->name('mypage');
 
-Route::post('recipe', 'RecipeController@index');
+Route::post('mypage/recipeuser', 'MypageController@recipe');
+
+Route::post('mypage/recipechange', 'MypageController@change');
+
+Route::post('mypage/changecomplete', 'MypageController@complete');
+
+Route::post('mypage/recipedel', 'MypageController@del');
+
+Route::get('recipe', 'RecipeController@index');
+
+Route::get('review', 'RecipeController@review');
+
+Route::post('recipeguest', 'RecipeguestController@guest');

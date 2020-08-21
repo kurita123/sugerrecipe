@@ -12,7 +12,6 @@ class RecipesTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('recipes')->truncate(); //2回目実行の際にシーダー情報をクリア
         DB::table('recipes')->insert([
             'user_id' => '1',
             'c_name' => 'とりつくね',
@@ -25,7 +24,6 @@ class RecipesTableSeeder extends Seeder
                         中まで火が通ったらタレを作る。醤油、ラカント、酒を耐熱容器に入れレンジで500w2分温める。
                         つくねに掛けて出来上がり！',
             'imgpath' => 'tukune.jpeg',
-            'evalunation' => 2,
         ]);
 
         DB::table('recipes')->insert([
@@ -37,7 +35,6 @@ class RecipesTableSeeder extends Seeder
             'recipe' => 'フライパンにバターをのせ温める。
                         きのこを炒め塩、ポン酢で味付けをしたら完成！',
             'imgpath' => 'kinoko.jpg',
-            'evalunation' => 3,
         ]);
 
         DB::table('recipes')->insert([
@@ -49,7 +46,6 @@ class RecipesTableSeeder extends Seeder
             'recipe' => '卵を8〜12分茹で冷水につける。殻をむき水200mlに塩を入れ冷蔵庫で約3時間寝かせる。
                         お好みの味になったら塩水を抜いて完成！',
             'imgpath' => 'yudetamago.jpg',
-            'evalunation' => 1,
         ]);
 
         DB::table('recipes')->insert([

@@ -14,7 +14,7 @@ class CreateRecipesTable extends Migration
     public function up()
     {
         Schema::create('recipes', function (Blueprint $table) {
-            $table->increments('id');
+            $table->id();
             $table->unsignedInteger('user_id');
             $table->string('c_name','50');
             $table->string('material');
@@ -22,7 +22,6 @@ class CreateRecipesTable extends Migration
             $table->string('amount');
             $table->string('recipe','1000');
             $table->string('imgpath','200');
-            $table->integer('evalunation')->nullable();
             $table->timestamps();
         });
     }
