@@ -33,14 +33,21 @@ class RecipeController extends Controller
     }
 
     public function review(ReviewRequest $request){
-        $review = [
-            'user_id'=> Auth::id(),
-            'recipe_id' => $request->recipe_id,
-            'comment'   => $request->comment,
-            'stars'  => $request->stars,
-        ];
+       
+        $user_id  = Auth::id();
+        $recipe_id = $request->recipe_id;
+        $comment   = $request->comment;
+        $stars  = $request->stars;
     
-        DB::table('reviews')->insert($review);
+        DB::table('reviews')->updateOrInsert(
+            ['user_id' => $user_id,'recipe_id' => $recipe_id],
+            ['user_id' => $user_id,'recipe_id' => $recipe_id,'comment'=>$comment,'stars'=>$stars]
+        );
+
+        $evaluations = DB::table('reviews')->where('recipe_id',$recipe_id)->avg('stars');
+        $evaluation = round(collect($evaluations)->avg(),2,PHP_ROUND_HALF_UP);
+        
+        DB::table('recipes')->where('id',$recipe_id)->update(['evaluation'  => $evaluation]);
 
         return view('review');
     }

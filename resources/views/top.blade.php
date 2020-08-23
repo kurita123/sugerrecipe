@@ -16,7 +16,7 @@
                             料理名 : {{$recipe->c_name}}<br>
                             画像 : <img src="{{ asset('/storage/img/'.$recipe->imgpath)}}" alt="" class="inrecipe"><br>
                             糖質量 : {{$recipe->t_suger}}g<br>
-                            評価 : <br>
+                            評価 : {{$recipe->evaluation}}<br>
                             <form action="recipe" method="get">
                             @csrf
                             <input type="hidden" name="id" value="{{$recipe->id}}">

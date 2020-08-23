@@ -22,6 +22,7 @@ class CreateRecipesTable extends Migration
             $table->string('amount');
             $table->string('recipe','1000');
             $table->string('imgpath','200');
+            $table->double('evaluation',3,2)->default(0);
             $table->timestamps();
         });
     }
