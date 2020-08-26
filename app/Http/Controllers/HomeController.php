@@ -8,9 +8,18 @@ use App\Models\Recipe;
 class HomeController extends Controller
 {   
     public function index(Request $request){
-        //レシピ取得
-        $recipes = Recipe::orderBy('updated_at','asc')->paginate(12);
-        
-        return view('home',compact('recipes'));
+        $sort = $request->sort;
+        if (is_null($sort)) {
+            $sort = 'id';
+           }
+        if($sort =='evaluation'){
+        $recipes = Recipe::orderBy($sort,'desc')->simplePaginate(12);
+        }elseif($sort == 'id'){
+        $recipes = Recipe::orderBy($sort,'asc')->simplePaginate(12);
+        }else{
+        $recipes = Recipe::orderBy($sort,'desc')->simplePaginate(12);
+        };
+        $param = ['recipes'=>$recipes,'sort'=>$sort];
+        return view('home',compact('sort','recipes'));
     }
 }

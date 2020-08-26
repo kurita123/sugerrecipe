@@ -36,7 +36,8 @@
     .recipe {font-weight: bold; text-align: center; margin:0 auto;font-size: 1.1em;}
     .recipe input{width:70%;text-align: center;}
     textarea{width:70%;}
-    img.inrecipe{width:90%; display: block; margin: 0 auto; height:200px; object-fit: cover;}
+    .example {position: relative;}
+    .example img { width:100%; max-width:100%; margin:10px 10px;height: auto;}
     .myrecipe{color: #4c4c4c; font-weight: bold; text-align: center; margin-top: 24px; padding: 24px 8px; font-size: 1.1em; background-color: #fefefe;}
     .name {text-align:center; font-size:2em; margin:20px 0px;}
     .text{ margin:10px 10px;}
@@ -47,6 +48,7 @@
     .myrecipe-su{color: #4c4c4c; font-weight: bold; text-align: center; padding: 24px 8px; font-size: 1.1em; background-color: #fefefe;}
     .button {text-align:center;margin:10px 0px}
     .button form { display: inline-block; margin:0px 20px;}
+    img.inrecipe{width:100%; display: block; margin: 0 auto; height: 200px; object-fit: cover;}
     </style>
 
 </head>
@@ -82,13 +84,14 @@
     <main class="mb-auto">
     <div class="container">
         <div class="row" id="content">
-            <div class="col-md-3 order-sm-2">
+            <div class="d-flex flex-row flex-wrap">
+                <div class="col-md-9">
+                <!-- コンテンツ -->
+                @yield('content')
+                </div>
+            <div class="col-md-3">
             <!-- サイドバー -->
             @include('layouts.sub')
-            </div>
-            <div class="col-md-9 order-sm-1">
-            <!-- コンテンツ -->
-            @yield('content')
             </div>
         </div>
     </div>

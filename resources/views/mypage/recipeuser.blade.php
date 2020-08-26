@@ -21,7 +21,7 @@
                         <span style="color:red">作り方</p></span>{{$recipe->recipe}}<br><br>
                         <span style="color:red">糖質量</p></span>{{$recipe->t_suger}}g<br><br>
                         <span style="color:red">１人前の量</p></span>{{$recipe->amount}}g<br><br>
-                        <span style="color:red">評価</p></span><br><br>
+                        <span style="color:red">評価</p></span>{{$recipe->evaluation}}<br><br>
                     </div>
                 <div class="button">
                 <form action="/mypage/recipechange" method="post">

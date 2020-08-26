@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Requests\PostRequest;
+use App\Models\Recipe;
 
 class PostController extends Controller
 {
@@ -26,7 +27,8 @@ class PostController extends Controller
         $c_name = $request->c_name;
         $path = $request->file('imgpath')->store('public/img');
         $recipes[] = array();
-        $recipes = [
+        $recipes    = new Recipe();
+        $recipes ->create ([
             'user_id'  => $user_id,
             'c_name'   => $request->c_name,
             't_suger'  => $request->t_suger,
@@ -34,9 +36,7 @@ class PostController extends Controller
             'amount'   => $request->amount,
             'recipe'   => $request->recipe,
             'imgpath'  => str_replace('public/img/','',$path),
-        ];
-         //DB保存
-        DB::table('recipes')->insert($recipes);
+        ]);
                                 
         return view('postcomplete');
     }

@@ -5,7 +5,6 @@ use Illuminate\Support\Facades\Route;
 Auth::routes();
 
 Route::get('top', 'TopController@index')->name('top');
-Route::post('top', 'TopController@index');
 
 Route::get('home', 'HomeController@index')->name('home');
 Route::post('home', 'HomeController@index');
@@ -30,3 +29,5 @@ Route::get('recipe', 'RecipeController@index');
 Route::get('review', 'RecipeController@review');
 
 Route::post('recipeguest', 'RecipeguestController@guest');
+
+Route::get('search', 'SearchController@search');

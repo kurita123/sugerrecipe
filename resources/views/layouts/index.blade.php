@@ -66,13 +66,14 @@
     <main class="mb-auto">
     <div class="container">
         <div class="row" id="content">
-            <div class="col-md-3 order-sm-2">
+            <div class="d-flex flex-row flex-wrap">
+                <div class="col-md-9">
+                <!-- コンテンツ -->
+                @yield('content')
+                </div>
+            <div class="col-md-3">
             <!-- サイドバー -->
             @include('layouts.sub')
-            </div>
-            <div class="col-md-9 order-sm-1">
-            <!-- コンテンツ -->
-            @yield('content')
             </div>
         </div>
     </div>

@@ -12,7 +12,7 @@ class RecipesTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('recipes')->insert([
+        Recipe::create([
             'user_id' => '1',
             'c_name' => 'とりつくね',
             'material' => 'とりミンチ200g、玉ねぎ１玉、卵1個、片栗粉大さじ１、おからパウダー大さじ１、塩少々、こしょう少々、
@@ -26,7 +26,7 @@ class RecipesTableSeeder extends Seeder
             'imgpath' => 'tukune.jpeg',
         ]);
 
-        DB::table('recipes')->insert([
+        Recipe::create([
             'user_id' => '2',
             'c_name' => 'きのこバター炒め',
             'material' => 'お好きなきのこ100g、バター10g、ポン酢大さじ１、塩少々',
@@ -37,7 +37,7 @@ class RecipesTableSeeder extends Seeder
             'imgpath' => 'kinoko.jpg',
         ]);
 
-        DB::table('recipes')->insert([
+        Recipe::create([
             'user_id' => '3',
             'c_name' => 'ほんのり塩味茹で卵',
             'material' => '卵好きな数、塩小さじ1、水200ml',
@@ -48,7 +48,7 @@ class RecipesTableSeeder extends Seeder
             'imgpath' => 'yudetamago.jpg',
         ]);
 
-        DB::table('recipes')->insert([
+        Recipe::create([
             'user_id' => '1',
             'c_name' => '豆腐ハンバーグ',
             'material' => '合い挽き肉200g、玉ねぎ１玉、卵1個、豆腐100g、パン粉大さじ１、おからパウダー大さじ１、塩少々、こしょう少々、

@@ -37,11 +37,11 @@
     .sidebar_fixed {position: sticky;top: 60px;}
     .sidebar_content {margin-bottom: 100px;}
     .myrecipe{color: #4c4c4c; font-weight: bold; text-align: center; margin-top: 24px; padding: 24px 8px; font-size: 1.1em; background-color: #fefefe;}
-    img.inrecipe{width:90%; display: block; margin: 0 auto; height: 200px; object-fit: cover;}
     .pace-running .wrap {display:none;}
     .btn {margin:10px 50px;}
     .text{ margin:10px 10px;}
     .recipe{margin:0px auto;}
+    img.inrecipe{width:100%; display: block; margin: 0 auto; height: 200px; object-fit: cover;}
     </style>
 
 </head>
@@ -74,13 +74,14 @@
     <main class="mb-auto">
     <div class="container">
         <div class="row" id="content">
-            <div class="col-md-3 order-sm-2">
+            <div class="d-flex flex-row flex-wrap">
+                <div class="col-md-9">
+                <!-- コンテンツ -->
+                @yield('content')
+                </div>
+            <div class="col-md-3">
             <!-- サイドバー -->
             @include('layouts.sub')
-            </div>
-            <div class="col-md-9 order-sm-1">
-            <!-- コンテンツ -->
-            @yield('content')
             </div>
         </div>
     </div>

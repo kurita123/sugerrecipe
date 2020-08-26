@@ -12,17 +12,22 @@ class TopController extends Controller
     {
         $this->middleware('auth');
     }
-      
+
     public function index(Request $request){
-        //レシピ取得
-        $recipes = Recipe::orderBy('updated_at','asc')->paginate(12);
-
-        foreach($recipes as $val){
-            $recipe_id[$val->id] = $val ->id;
-        }
+        $sort = $request->sort;
+        if (is_null($sort)) {
+            $sort = 'id';
+           }
+        if($sort =='evaluation'){
+        $recipes = Recipe::orderBy($sort,'desc')->simplePaginate(12);
+        }elseif($sort == 'id'){
+        $recipes = Recipe::orderBy($sort,'asc')->simplePaginate(12);
+        }else{
+        $recipes = Recipe::orderBy($sort,'desc')->simplePaginate(12);
+        };
+        $param = ['recipes'=>$recipes,'sort'=>$sort];
         
-        $evaluation = DB::table('reviews')->whereRaw('id',$recipe_id)->get(['recipe_id','stars']);
-
-        return view('top',compact('recipes'));
+        return view('top',compact('sort','recipes'));
     }
+
 }

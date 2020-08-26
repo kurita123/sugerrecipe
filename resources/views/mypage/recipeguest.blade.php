@@ -21,7 +21,7 @@
                         <span style="color:red">作り方 : </span>{{$recipe->recipe}}<br></br>
                         <span style="color:red">糖質量 : </span>{{$recipe->t_suger}}g<br><br>
                         <span style="color:red">１人前の量 : </span>{{$recipe->amount}}g<br><br>
-                        <span style="color:red">評価 : </span><br><br>
+                        <span style="color:red">評価 : </span>{{$recipe->evaluation}}<br><br>
                         <span style="color:#33CCCC">あなたの評価</span></p>
                         <span class="star-rating">
                         <input type="radio" name="rating" value="1"><i></i>
