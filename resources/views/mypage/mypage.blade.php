@@ -21,6 +21,7 @@
                             <form action="/mypage/recipeuser" method="post">
                             @csrf
                             <input type="hidden" name="id" value="{{$recipe->id}}">
+                            <input type="hidden" name="name" value="{{$name}}">
                             <input type="submit" value="詳細" class= 'btn-lg btn-primary'><br>
                             </form>
                         </div>

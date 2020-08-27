@@ -8,7 +8,6 @@
         <div class = "name">
         @foreach($name as $nam)
             <p>{{$nam->name}}さんのレシピ</p>
-        @endforeach
         </div>
             @foreach($recipes as $recipe)
                 <div class="myrecipe">
@@ -29,14 +28,16 @@
                     <input type="hidden" name="id" value="{{$recipe->id}}">
                     <input type="submit" value="変更" class= 'btn-lg btn-primary'>
                 </form>
-                <form action="/mypage/recipedel" method="post">
+                <form action="/mypage/delete" method="post">
                 @csrf
                     <input type="hidden" name="id" value="{{$recipe->id}}">
+                    <input type="hidden" name="name" value="{{$nam->name}}">
                     <input type="submit" value="削除" class= 'btn-lg btn-primary'>
                 </form>
                 @endforeach
                 </div>
             </div>
+        @endforeach
         </div>
     </div>
 </div>

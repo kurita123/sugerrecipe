@@ -69,4 +69,13 @@ class MypageController extends Controller
         return view('mypage.recipecomplete',compact('name'));
     }
 
+    public function delete(Request $request)
+    {
+        $name = $request->name;
+        DB::table('recipes')->where('id',$request->id)->delete();
+
+        return view('mypage.delete',compact('name'));
+
+        // return redirect()->action('MypageController@mypage');
+    }
 }

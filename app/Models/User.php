@@ -27,4 +27,8 @@ class User extends Authenticatable
     public function inquiries(){
         return $this->hasMany('App\Models\Inquiry');
     }
+
+    public function reviews(){
+        return $this->hasMany('App\Models\Review');
+    }
 }

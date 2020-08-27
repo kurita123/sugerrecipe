@@ -19,7 +19,7 @@ class HomeController extends Controller
         }else{
         $recipes = Recipe::orderBy($sort,'desc')->simplePaginate(12);
         };
-        $param = ['recipes'=>$recipes,'sort'=>$sort];
+        
         return view('home',compact('sort','recipes'));
     }
 }

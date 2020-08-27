@@ -4,7 +4,6 @@
         <form action="search" method="get">
         @csrf
         検索ワード
-        <input type="hidden" name="searc">
         <input type="text" name="search">
         <input type="submit" value="検索" style="text-center">
         </form>

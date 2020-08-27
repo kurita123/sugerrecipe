@@ -22,7 +22,7 @@ Route::post('mypage/recipechange', 'MypageController@change');
 
 Route::post('mypage/changecomplete', 'MypageController@complete');
 
-Route::post('mypage/recipedel', 'MypageController@del');
+Route::post('mypage/delete', 'MypageController@delete');
 
 Route::get('recipe', 'RecipeController@index');
 
