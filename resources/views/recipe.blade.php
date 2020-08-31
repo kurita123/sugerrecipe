@@ -32,8 +32,8 @@
                     <span style="color:red">材料</p></span>{{$recipe->material}}<br><br>
                     <span style="color:red">作り方</p></span>{{$recipe->recipe}}<br><br>
                     <span style="color:red">糖質量</p></span>{{$recipe->t_suger}}g<br><br>
-                    <span style="color:red">１人前の量</p></span>{{$recipe->amount}}g<br><br>
-                    <span style="color:red">評価</p></span>{{$recipe->evaluation}}<br><br>
+                    <span style="color:red">１人前の量</p></span>{{$recipe->amount}}<br><br>
+                    <span style="color:red">平均評価</p></span><span style="color:#ffcc00;font-size: 20px;">★</span>{{$recipe->evaluation}}<br><br>
                     <span style="color:#33CCCC">あなたの評価</span></p>
                     <form action="review" mecthod="post">
                     @csrf
@@ -52,7 +52,26 @@
                     </div>
                 </div>
                 @endforeach
-                
+                <p style="font-size:1.4em">レビュー評価一覧</p>
+                @foreach($reviews as $review)
+                <table border=2 class="table-css">
+                <tr>
+                    <th>名前</th>
+                    <td>{{$review->user->name}}</td>
+                </tr>
+                <tr>
+                    <th>評価</th>
+                    <td><span style="color:#ffcc00;font-size: 20px;">★</span>{{$review->stars}}</td>
+                </tr>
+                <tr>
+                    <th>コメント</th>
+                    <td>{{$review->comment}}</td><br>
+                </tr>
+                </table>
+                @endforeach
+                <div style="text-center; width: 150px;margin: 20px auto;">
+                    {{ $reviews->appends(request()->input())->links() }} 
+                </div>
             </div>
         </div>
     </div>

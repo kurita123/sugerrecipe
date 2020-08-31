@@ -10,10 +10,14 @@ class Review extends Model
         'id'
     ];
 
-    public function user() {
-
+    public function user() 
+    {
         return $this->belongsTo(\App\Models\User::class, 'user_id', 'id')
             ->select('id', 'name');
+    }
 
+    public function users() 
+    {
+        return $this->belongsTo(\App\Models\User::class, 'user_id', 'id');
     }
 }

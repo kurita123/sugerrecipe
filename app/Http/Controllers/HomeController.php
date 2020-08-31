@@ -13,11 +13,11 @@ class HomeController extends Controller
             $sort = 'id';
            }
         if($sort =='evaluation'){
-        $recipes = Recipe::orderBy($sort,'desc')->simplePaginate(12);
+        $recipes = Recipe::orderBy($sort,'desc')->Paginate(12);
         }elseif($sort == 'id'){
-        $recipes = Recipe::orderBy($sort,'asc')->simplePaginate(12);
+        $recipes = Recipe::orderBy($sort,'asc')->Paginate(12);
         }else{
-        $recipes = Recipe::orderBy($sort,'desc')->simplePaginate(12);
+        $recipes = Recipe::orderBy($sort,'desc')->Paginate(12);
         };
         
         return view('home',compact('sort','recipes'));

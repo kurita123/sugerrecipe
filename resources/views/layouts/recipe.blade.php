@@ -49,6 +49,8 @@
     .button {text-align:center;margin:10px 0px}
     .button form { display: inline-block; margin:0px 20px;}
     img.inrecipe{width:100%; display: block; margin: 0 auto; height: 200px; object-fit: cover;}
+    .table-css tr th { background: #FFFFCC; width:200px;}
+    .table-css tr td { width:80%; }
     </style>
 
 </head>

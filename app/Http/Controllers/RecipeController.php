@@ -8,10 +8,8 @@ use Illuminate\Support\Facades\DB;
 use App\Models\Recipe;
 use App\Models\Review;
 use App\Models\User;
-use App\Models\Inquiry;
 use App\Http\Requests\ReviewRequest;
 use Illuminate\Validation\Rule;
-
 
 class RecipeController extends Controller
 {
@@ -30,11 +28,9 @@ class RecipeController extends Controller
         }
         
         $name = DB::table('users')->where('id',$users_id)->get('name');
-        $review = DB::table('reviews')->where('recipe_id',$id)->get('comment');
-        $name = Review::with('users:name,user_id')->get('comment');
-        dd($name);
+        $reviews = Review::with('user')->where('recipe_id',$id)->Paginate(5);
 
-        return view('recipe',compact('recipes','name'));
+        return view('recipe',compact('recipes','reviews','name'));
     }
 
     public function review(ReviewRequest $request){

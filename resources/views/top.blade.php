@@ -39,7 +39,7 @@
                         </div>
                     </div>
                     @endforeach
-                    <div style="text-center; width: 200px;margin: 20px auto;">
+                    <div style="text-center; width: 150px;margin: 20px auto;">
                         {{ $recipes->appends(['sort' => $sort])->links() }} 
                     </div>
                 </div>

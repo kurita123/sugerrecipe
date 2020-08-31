@@ -12,7 +12,7 @@
         </div>
             <div class="d-flex flex-row flex-wrap">
                 @foreach($recipes as $recipe)
-                    <div class="col-xs-6 col-sm-4 col-md-4 ">
+                    <div class="col-xs-6 col-sm-6 col-md-6 ">
                         <div class="myrecipe">
                             料理名 : {{$recipe->c_name}}<br>
                             画像 : <img src="{{ asset('/storage/img/'.$recipe->imgpath)}}" alt="" class="inrecipe"><br>
